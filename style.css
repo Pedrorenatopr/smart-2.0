@@ -263,7 +263,7 @@
   }
 
   .nome-cliente {
-    position: absolute;
+    position: relative;
     margin-top: 8px;
     margin-left: 5px;
     color: #CAD1E9;
