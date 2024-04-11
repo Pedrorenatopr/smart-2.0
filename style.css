@@ -356,51 +356,53 @@
     padding-top: 30px;
   }
 
+
   .div-duvidas {
-    display: flex;
-    justify-content: center;
     background: linear-gradient(254deg, #1B1C36 14.36%, #2B4399 60.86%);
   }
 
-  .titulo-duvidas {
-    position: absolute;
-    font-size: 44px;
-    margin-top: 100px;
-    font-weight: 700;
-  }
+  summary {
+    cursor: pointer;
+    color: #1C1C1C;
+}
 
-  .duvidas {
-    display: grid;
-    flex-wrap: wrap;
-    width: 1200px;
-    justify-content: center;
-    gap: 10px;
-    padding-top: 220px;
-    padding-bottom: 130px;
-  }
+summary p {
+    color: white;
+}
 
-  .card-duvidas {
-    border-radius: 4.561px;
-    background: #1C1C1C;
-    width: 900px;
-    padding: 10px;
-  }
 
-  .cartao-duvidas {
+details {
+    background-color: #1C1C1C;
+    border-radius: 5px;
+}
+
+details li {
+    color: #AFB3CA;
+}
+
+details ul {
+    background-color: #1C1C1C;
+    list-style: none;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+
+.card-duvidas {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.duvidas {
+    display: grid;
     gap: 10px;
-  }
+    padding-left: 10px;
+    padding-right: 10px;
+}
 
-
-  .card-duvidas p {
-    margin-left: 10px;
-    color: white;
-  }
-
-  .card-duvidas img {
-  }
 
   .contato {
     display: flex;
@@ -482,35 +484,6 @@ footer p {
 }
 
 
-summary {
-  all: unset;
-  cursor: pointer;
-  marker: none;
-}
-
-summary::marker{
-  display: none;
-}
-
-details {
-
-}
-
-details ul {
-
-}
-
-details li {
-  background-color: #1C1C1C;
-  color: #AFB3CA;
-  border-radius: 4.561px;
-  padding-bottom: 10px;
-  width: 100%;
-}
-
-details li p {
-  margin-left: 20px;
-}
 
 
 
@@ -663,47 +636,10 @@ details li p {
     padding-top: 30px;
   }
 
-  summary {
-    all: unset;
-    cursor: pointer;
-    marker: none;
-  }
-  
-  summary::marker{
-    display: none;
-  }
-
-  details li {
-    background-color: #1C1C1C;
-    color: #AFB3CA;
-    border-radius: 4.561px;
-    padding-bottom: 10px;
-    margin-left: 10px;
-  }
-  
-  details li p {
-    margin-left: 20px;
-  }
-
-  .duvidas {
-    width: 350px;
-    padding-right: 20px;
-  }
 
   .titulo-duvidas {
     padding-left: 20px;
   }
-
-
-
-  .card-duvidas {
-    width: 100%;
-    padding: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-
-
 
 
   .contato a {
