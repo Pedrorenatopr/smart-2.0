@@ -485,6 +485,7 @@ footer p {
 summary {
   all: unset;
   cursor: pointer;
+  marker: none;
 }
 
 summary::marker{
