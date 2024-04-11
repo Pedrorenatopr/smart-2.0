@@ -389,12 +389,14 @@ details ul {
 
 
 .card-duvidas {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 10px;
-    padding-left: 10px;
-    padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
 }
 
 .duvidas {
