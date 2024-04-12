@@ -517,7 +517,6 @@ footer p {
   border-radius: 20px;
   z-index: 3;
   border: 1px solid #1F2035;
-  padding: 10px;
   width: 100%;
 
 }
@@ -529,6 +528,13 @@ footer p {
 
 @media screen and (max-device-width: 1000px) {
 
+  .menu-mobile {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+    padding-top: 20px;
+  }
 
   .home {
     filter: brightness(0) saturate(100%) invert(43%) sepia(55%) saturate(4975%) hue-rotate(216deg) brightness(101%) contrast(101%);
