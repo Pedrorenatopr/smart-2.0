@@ -635,16 +635,16 @@ footer p {
 
   .texto-sobre {
     margin-left: 0;
-    padding-top: 0;
-    background-color: #0084FF;
+    padding-top: 200px;
     margin-top: 50px;
     padding-left: 40px;
+    padding-bottom: 200px;
   }
 
 
   .img-sobre {
     width: 100%;
-    height: 800px;
+    height: 700px;
   }
  
   .legenda-sobre {
