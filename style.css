@@ -501,31 +501,6 @@ footer p {
   border-image: linear-gradient(to right, transparent, #36536760, transparent) 1;
 }
 
-.geral-boxes{
-  width: 100%;
-  float: left;
-}
-.box1,.box2,.box3{
-  width: 100%;
-  float: left;
-  height: 500px;
-}
-.box1{
-  background-color: #eee;
-}
-.box2{
-  background-color: #bbb;
-}.box3{
-  background-color: #ccc;
-}
-.geral-boxes{
-  width: 100%;
-  float: left;
-}
-.laranja{
-  width: 100%;
-  float: left;
-}
 
 .scroll-aparecer{
   width: 100%;
@@ -536,6 +511,7 @@ footer p {
   left: 0;
   right: 0;
   display: block;
+  z-index: 3;
   
 }
 
