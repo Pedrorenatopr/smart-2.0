@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Document</title>
 </head>
 <body id="anchor4">
@@ -66,7 +67,7 @@
     </div>
 
     <div class="solucoes">
-        <p class="texto-solucoes">A melhor consultoria e as melhores <br> soluções para o seu negócio!</p>
+        <p class="texto-solucoes"data-aos="fade-up" >A melhor consultoria e as melhores <br> soluções para o seu negócio!</p>
         <div class="cartao-solucoes">
             <div class="card-solucoes">
                 <img src="xadrez.png" alt="">
@@ -100,7 +101,7 @@
         </div>
     </div>
     
-    <div class="depoimento">
+    <div class="depoimento" data-aos="fade-up">
         <p class="titulo-depoimento">O que nossos clientes <br>estão dizendo?</p>
         <div class="cartao-depoimento">
             <div class="card-depoimento">
@@ -213,7 +214,7 @@
     </div>
 
     <div class="div-duvidas">
-        <p class="titulo-duvidas">Perguntas frequentes</p>
+        <p class="titulo-duvidas" data-aos="fade-up">Perguntas frequentes</p>
         <div class="duvidas">
             <details>
                 <summary>
@@ -490,6 +491,13 @@
            }
        });
    });
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+        });
     </script>
 
    
