@@ -518,8 +518,12 @@ footer p {
     gap: 50px;
     z-index: 3;
     border: 1px solid #1F2035;
-    background: rgba(2, 4, 26, 0.06);
-    backdrop-filter: blur(12.350000381469727px);
+    background: rgb(2, 4, 26);
+    padding: 10px;
+  }
+
+  .home {
+    filter: brightness(0) saturate(100%) invert(43%) sepia(55%) saturate(4975%) hue-rotate(216deg) brightness(101%) contrast(101%);
   }
 
   nav {
