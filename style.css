@@ -529,18 +529,6 @@ footer p {
 
 @media screen and (max-device-width: 1000px) {
 
-  .menu-mobile {
-    display: flex;
-    justify-content: center;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    gap: 50px;
-    z-index: 3;
-    border: 1px solid #1F2035;
-    background: rgb(2, 4, 26);
-    padding: 10px;
-  }
 
   .home {
     filter: brightness(0) saturate(100%) invert(43%) sepia(55%) saturate(4975%) hue-rotate(216deg) brightness(101%) contrast(101%);
