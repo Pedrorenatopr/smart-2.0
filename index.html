@@ -7,14 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="scroll-aparecer">
-        <div class="menu-mobile">
-            <a href=""><img class="home" src="home.svg" alt="" width="50px"  ></a>
-            <a href=""><img class="home" src="home.svg" alt="" width="50px" ></a>
-            <a href=""><img class="home" src="home.svg" alt="" width="50px" ></a>
-            <a href=""><img class="home" src="home.svg" alt="" width="50px" ></a>
-        </div>
-    </div>
 
     <nav>
         <div class="logo"><img src="logo.png" alt=""></div>
@@ -469,23 +461,35 @@
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
+    <div class="element">
+        <div class="menu-mobile">
+            <a href=""><img class="home" src="home.svg" alt="" width="50px"  ></a>
+            <a href=""><img class="home" src="home.svg" alt="" width="50px" ></a>
+            <a href=""><img class="home" src="home.svg" alt="" width="50px" ></a>
+            <a href=""><img class="home" src="home.svg" alt="" width="50px" ></a>
+        </div>
+    </div>
 
     <script>
-        $(document).ready(function(){
-   $(window).on('scroll', function() {
-      $('.scroll-aparecer').stop();
-      if($(this).scrollTop() > 200) {
-         $('.scroll-aparecer').animate({
-            height:"100px"
-         }, 50); /*Defina aqui o tempo em milisegundos */
-      }else{
-         $('.scroll-aparecer').animate({
-         height:"0"
-         }, 50); /*Defina aqui o tempo em milisegundos */
-      }
+           $(function () {
+       //incluso essa variavel para setar atributos do css depois
+       var elemento = $('.element');
+
+       $(window).scroll(function () {
+           //distancia que o scroll devera rolar para aparecer o box da div
+           if ($(this).scrollTop() > 200) {
+               //bloco incluso para setar o css
+               elemento.css({
+                   'position': 'fixed',
+                       'bottom': '0'
+               });
+
+               $('.element').fadeIn();
+           } else {
+               $('.element').fadeOut();
+           }
+       });
    });
-});
     </script>
 
    

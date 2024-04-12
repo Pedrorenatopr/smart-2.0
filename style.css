@@ -509,20 +509,9 @@ footer p {
   border-image: linear-gradient(to right, transparent, #36536760, transparent) 1;
 }
 
-
-.scroll-aparecer{
-  bottom: 0;
-  background: rgb(2, 4, 26);
-  position: fixed;
-  border-radius: 20px;
-  z-index: 3;
-  border: 1px solid #1F2035;
+.element {
   width: 100%;
-
 }
-
-
-
 
 
 
@@ -532,8 +521,12 @@ footer p {
     display: flex;
     justify-content: center;
     gap: 50px;
-    align-items: center;
-    padding-top: 20px;
+    padding: 1em;
+    border-radius: 15.733px;
+    border: 0.787px solid #2C2D47;
+    background: linear-gradient(137deg, rgba(54, 56, 111, 0.887) 23.98%, rgba(100, 61, 227, 0.79) 65.73%);
+    backdrop-filter: blur(4.6020002365112305px);
+    z-index: 3;
   }
 
   .home {
