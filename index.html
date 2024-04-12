@@ -465,6 +465,32 @@
         <a href=""><img src="linkedin.png" alt=""></a>
     </div>
 
+
+    <div class="scroll-aparecer"></div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script>
+        var espera = 500;
+var timeout = null;
+
+$(window).bind('scroll',function(){
+    clearTimeout(timeout);
+    timeout = setTimeout(function(){
+
+    if($(window).scrollTop() > 200)
+    {
+        $('.scroll-aparecer').animate({ height:"100px" });
+    }
+    else
+    {
+        $('.scroll-aparecer').animate({height:"0"});
+    }    
+    
+
+    },espera);
+});
+    </script>
+
    
    
     
