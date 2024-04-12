@@ -440,6 +440,8 @@ details ul {
     text-align: center;
   }
 
+
+
   .contato p {
     font-size: 25px;
     color: black;
@@ -698,6 +700,10 @@ footer p {
     padding-left: 0;
   }
 
+  .duvidas p {
+    height: 50px;
+  }
+
   .div-duvidas {
     background: linear-gradient(254deg, #1B1C36 14.36%, #2B4399 60.86%);
     padding-top: 100px;
@@ -716,7 +722,6 @@ footer p {
     align-items: center;
     padding-left: 10px;
     padding-right: 10px;
-    margin-top: -10px;
     margin-bottom: 10px;
     border-radius: 10px;
   }
