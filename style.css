@@ -522,9 +522,10 @@ footer p {
     justify-content: center;
     gap: 50px;
     padding: 1em;
-    border-radius: 15.733px;
-    border: 0.787px solid #2C2D47;
-    background: linear-gradient(137deg, rgba(54, 56, 111, 0.887) 23.98%, rgba(100, 61, 227, 0.79) 65.73%);
+    border-radius: 15px 15px 0px 0px;
+    border-top: 0.787px solid #2C2D47;
+    border-bottom: 0;
+    background-color: #0B0B26;
     backdrop-filter: blur(4.6020002365112305px);
     z-index: 3;
   }
