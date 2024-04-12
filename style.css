@@ -546,6 +546,12 @@ footer p {
     justify-content: center;
     width: 100%;
     padding-top: 20px;
+    padding-bottom: 300px;
+  }
+
+  .texto-principal {
+    position: absolute;
+    padding-top: 600px;
   }
 
   h1 {
