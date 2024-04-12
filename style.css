@@ -15,6 +15,10 @@
     color: #CAD1E9;
   }
 
+  .menu-mobile {
+    display: none;
+  }
+
   nav {
     display: flex;
     align-items: center;
@@ -503,6 +507,20 @@ footer p {
 
 
 @media screen and (max-device-width: 1000px) {
+
+  .menu-mobile {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    gap: 50px;
+    z-index: 3;
+    border: 1px solid #1F2035;
+    background: rgba(2, 4, 26, 0.06);
+    backdrop-filter: blur(12.350000381469727px);
+  }
 
   nav {
     display: none;
