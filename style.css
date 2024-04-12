@@ -359,6 +359,8 @@
 
   .div-duvidas {
     background: linear-gradient(254deg, #1B1C36 14.36%, #2B4399 60.86%);
+    padding-top: 200px;
+    padding-bottom: 200px;
   }
 
   summary {
@@ -374,6 +376,7 @@ summary p {
 details {
     background-color: #1C1C1C;
     border-radius: 5px;
+    width: 900px;
 }
 
 details li {
@@ -387,6 +390,13 @@ details ul {
     padding-bottom: 10px;
 }
 
+.titulo-duvidas {
+  font-size: 44px;
+  font-weight: 600;
+  padding-left: 10px;
+  padding-bottom: 80px;
+  text-align: center;
+}
 
 .card-duvidas {
   display: flex;
@@ -404,6 +414,7 @@ details ul {
     gap: 10px;
     padding-left: 10px;
     padding-right: 10px;
+    justify-content: center;
 }
 
 
@@ -642,6 +653,12 @@ footer p {
 
   .titulo-duvidas {
     padding-left: 20px;
+  }
+
+  details {
+    background-color: #1C1C1C;
+    border-radius: 5px;
+    width: 350px;
   }
 
   .card-duvidas {
