@@ -549,8 +549,13 @@ footer p {
   }
 
   h1 {
-    width: 400px;
-    font-size: 42px;
+    width: 350px;
+    font-size: 32px;
+  }
+  
+  .div-h1 {
+    display: flex;
+    justify-content: center;
   }
 
   .legenda-principal {
