@@ -398,7 +398,6 @@ details li {
 
 details ul {
     background-color: #1C1C1C;
-    list-style: none;
     padding-left: 10px;
     padding-bottom: 10px;
 }
@@ -717,7 +716,12 @@ footer p {
     align-items: center;
     border-radius: 10px;
     padding-bottom: 5px;
-    margin-top: 5;
+    margin-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-radius: 0;
   }
 
 
