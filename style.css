@@ -709,6 +709,7 @@ footer p {
     background-color: #1C1C1C;
     border-radius: 5px;
     width: 350px;
+    height: 50px;
   }
 
   .card-duvidas {
@@ -716,7 +717,6 @@ footer p {
     justify-content: space-between;
     align-items: center;
     border-radius: 10px;
-    height: 20px;
   }
 
 
