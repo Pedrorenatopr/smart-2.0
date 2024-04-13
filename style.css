@@ -591,18 +591,8 @@ footer p {
   }
 
   .fundo {
-    position: absolute;
-    background: radial-gradient(rgb(103, 25, 221), rgba(225, 225, 225, 0) 50%);
-    width: 100%;
-    height: 350px;
-    border-radius: 100%;
-    opacity: 0.3;
-    position: absolute;
-    margin: auto;
-    bottom: 10%;
-    left: 0;
-    right: 0;
-    animation: fundoOpacidade 10s linear infinite;
+    display: none;
+
 
   }
 
