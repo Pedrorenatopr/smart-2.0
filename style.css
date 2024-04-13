@@ -29,6 +29,9 @@
   }
 
   nav {
+    width: 100%;
+    position: fixed;
+    z-index: 3;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -71,6 +74,7 @@
   }
 
   .section-principal {
+    padding-top: 300px;
     display: flex;
     justify-content: center;
     align-items: center;
