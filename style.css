@@ -23,6 +23,10 @@
 
   }
 
+  .logo-smart {
+    display: none;
+  }
+
 
   .menu-mobile {
     display: none;
@@ -635,6 +639,11 @@ footer p {
     display: none;
   }
 
+  .logo-smart {
+    display: flex;
+    justify-content: center;
+  }
+
   .section-principal {
     display: grid;
     background-image: none;
@@ -642,6 +651,7 @@ footer p {
     justify-content: center;
     width: 100%;
     padding-top: 20px;
+    padding-bottom: 300px;
   }
 
   .fundo {
@@ -651,6 +661,11 @@ footer p {
   }
 
   .texto-principal {
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 20px;
+    left: 0;
+    right: 0;
   }
 
   h1 {
@@ -686,6 +701,7 @@ footer p {
   }
 
   .npc-principal {
+    width: 300px;
 
   }
 
