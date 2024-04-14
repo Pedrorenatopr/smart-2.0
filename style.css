@@ -145,8 +145,10 @@
 
   h1 {
     font-size: 54px;
-    width: 500px;
+  }
 
+  h1 span {
+    color: white;
   }
 
   .legenda-principal {
