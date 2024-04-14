@@ -549,6 +549,13 @@ details ul {
     font-size: 25px;
     color: black;
     padding-bottom: 50px;
+    width: 500px;
+  }
+
+
+  .div-texto-contato {
+    display: grid;
+    justify-content: center;
   }
 
   .destaque-wpp {
@@ -584,6 +591,7 @@ details ul {
     position: absolute;
     margin-left: -100px;
   }
+
 
 
 .card-contato {
@@ -838,7 +846,7 @@ footer p {
 
   details {
     border-radius: 10px;
-    width: 350px;
+    width: 100%;
   }
 
   .card-duvidas {
@@ -855,23 +863,44 @@ footer p {
     border-radius: 0;
   }
 
+  .contato {
+    padding-bottom: 50px;
+    padding-top: 150px;
+  }
 
   .contato a {
-    width: 200px;
+    width: 300px;
     display: block;
   }
 
+  .div-bt-contato {
+    display: grid;
+    justify-content: center;
+  }
+
   .contato img {
-    margin-top: -150px;
+    margin-top: -90px;
     position: absolute;
-    margin-left: -90px;
+    margin-left: -80px;
+  }
+
+  .contato p {
+    width: 100%;
+    padding-bottom: 20px;
+  }
+
+  .div-texto-contato {
+    display: grid;
+    justify-content: center;
   }
 
 
 .card-contato {
   border-radius: 12px;
-  padding: 100px;
-  width: 400px;
+  padding: 20px;
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 footer {
