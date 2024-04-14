@@ -142,10 +142,7 @@
   h1 {
     font-size: 54px;
     width: 500px;
-    background: linear-gradient(92deg, #0084FF 5.29%, #FF8AC7 42.29%, #FEBA75 95.13%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+
   }
 
   .legenda-principal {
