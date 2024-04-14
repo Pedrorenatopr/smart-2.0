@@ -662,7 +662,7 @@ footer p {
 
   .texto-principal {
     position: absolute;
-    bottom: 0;
+    padding-top: 508px;
     left: 0;
     right: 0;
   }
