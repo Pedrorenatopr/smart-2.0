@@ -145,7 +145,24 @@
 
   h1 {
     font-size: 54px;
+    width: 18ch;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(18),
+    blinking 0.5s infinite step-end alternate;
   }
+
+  @keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blinking {
+    50% {
+        border-color: transparent;
+    }
+}
 
   h1 span {
     color: white;
