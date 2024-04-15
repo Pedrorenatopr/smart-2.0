@@ -641,6 +641,21 @@ footer p {
   font-weight: 700;
 }
 
+.copy {
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+  justify-content: center;
+  gap: 800px;
+  padding: 20px;
+  backdrop-filter: blur(20.350000381469727px);
+  border-top: 1px solid rgba(45, 46, 72, 0.21);
+}
+
+.copy a {
+  color: #CAD1E9;
+}
+
 .redes {
   display: none;
   justify-content: center;
@@ -934,6 +949,21 @@ footer {
   justify-content: left;
   padding-left: 30px;
   gap: 10px;
+}
+
+.copy {
+  text-align: left;
+  font-size: 12px;
+  display: grid;
+  justify-content: center;
+  justify-content: left;
+  margin-bottom: 80px;
+  gap: 10px;
+  padding-top: 400px;
+  padding: 10px;
+  padding-left: 30px;
+  backdrop-filter: blur(20.350000381469727px);
+  border-top: 1px solid rgba(45, 46, 72, 0.21);
 }
 
 
