@@ -111,24 +111,12 @@
     border: 1px solid rgba(255, 255, 255, 0.09);
     background: rgba(16, 18, 35, 0.26);
     backdrop-filter: blur(6.699999809265137px);
-    background-image: url(fundo-azul.png);
-    background-position: right;
-    background-repeat: no-repeat;
   }
 
   .fundo {
-    display: none;
-    background: radial-gradient(rgba(88, 25, 183, 0.414), rgba(225, 225, 225, 0) 50%);
-    width: 1200px;
-    height: 100px;
-    border-radius: 10px;
-    opacity: 0.3;
     position: absolute;
-    bottom: 0;
-    left: 0;
     right: 0;
-    margin: auto;
-    animation: fundoOpacidade 8s linear infinite;
+    animation: fundoOpacidade 10s linear infinite;
 
   }
 
@@ -717,15 +705,14 @@ footer p {
     width: 100%;
     padding-top: 0;
     padding-bottom: 270px;
-    background-image: url(fundo-azul.png);
-    background-position: center;
-    background-size: 700px;
   }
 
   .fundo {
-    display: none;
-
-
+    position: absolute;
+    left: -10px;
+    top: 0;
+    bottom: 0;
+    animation: fundoOpacidade 10s linear infinite;
   }
 
   .texto-principal {
