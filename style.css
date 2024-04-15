@@ -711,8 +711,8 @@ footer p {
     text-align: center;
     justify-content: center;
     width: 100%;
-    padding-top: 20px;
-    padding-bottom: 250px;
+    padding-top: 0;
+    padding-bottom: 270px;
   }
 
   .fundo {
