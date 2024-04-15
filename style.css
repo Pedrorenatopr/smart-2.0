@@ -709,14 +709,14 @@ footer p {
 
   .fundo {
     position: absolute;
-    left: 2px;
+    left: 50px;
     top: -200px;
     bottom: 0;
     right: 0;
     background-image: url(fundo-azul.png);
     background-position: left;
     background-repeat: no-repeat;
-    background-size: 50vh;
+    background-size: 40vh;
     animation: fundoOpacidade 10s linear infinite;
   }
 
