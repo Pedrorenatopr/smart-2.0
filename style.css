@@ -61,6 +61,11 @@
     padding: 1em;
   }
 
+  .destaque-home {
+    color: #7114af;
+    font-weight: bold;
+  }
+
   .bt-principal {
     display: block;
     border-radius: 7.885px;
