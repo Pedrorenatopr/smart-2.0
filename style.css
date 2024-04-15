@@ -708,6 +708,7 @@ footer p {
   }
 
   .fundo {
+    display: none;
     position: absolute;
     right: 0;
     left: 0;
@@ -717,7 +718,6 @@ footer p {
   }
 
   .fundo img {
-    width: 200px;
   }
 
   .texto-principal {
