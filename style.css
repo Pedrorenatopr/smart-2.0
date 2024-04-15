@@ -62,7 +62,7 @@
   }
 
   .destaque-home {
-    color: #7114af;
+    color: white;
     font-weight: bold;
   }
 
@@ -111,9 +111,13 @@
     border: 1px solid rgba(255, 255, 255, 0.09);
     background: rgba(16, 18, 35, 0.26);
     backdrop-filter: blur(6.699999809265137px);
+    background-image: url(fundo-azul.png);
+    background-position: right;
+    background-repeat: no-repeat;
   }
 
   .fundo {
+    display: none;
     background: radial-gradient(rgba(88, 25, 183, 0.414), rgba(225, 225, 225, 0) 50%);
     width: 1200px;
     height: 100px;
@@ -713,6 +717,9 @@ footer p {
     width: 100%;
     padding-top: 0;
     padding-bottom: 270px;
+    background-image: url(fundo-azul.png);
+    background-position: center;
+    background-size: 700px;
   }
 
   .fundo {
