@@ -712,7 +712,13 @@ footer p {
     left: -10px;
     top: 0;
     bottom: 0;
+    background-image: url(fundo-azul.png);
+    background-size: 100vh;
     animation: fundoOpacidade 10s linear infinite;
+  }
+
+  .fundo img {
+    display: none;
   }
 
   .texto-principal {
