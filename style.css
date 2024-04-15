@@ -716,7 +716,7 @@ footer p {
     background-image: url(fundo-azul.png);
     background-position: left;
     background-repeat: no-repeat;
-    background-size: 55vh;
+    background-size: 50vh;
     animation: fundoOpacidade 10s linear infinite;
   }
 
