@@ -846,7 +846,11 @@ footer p {
 
 
   .titulo-duvidas {
-    padding-left: 0;
+    padding-left: 15px;
+    text-align: left;
+    flex-wrap: nowrap;
+    font-size: 28px;
+    padding-bottom: 40px;
   }
 
 
