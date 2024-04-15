@@ -711,12 +711,13 @@ footer p {
     position: absolute;
     right: 0;
     left: 0;
-    top: 130px;
+    top: 90px;
     animation: none;
 
   }
 
   .fundo img {
+    width: 450px;
   }
 
   .texto-principal {
