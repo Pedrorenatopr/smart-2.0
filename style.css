@@ -709,7 +709,7 @@ footer p {
 
   .fundo {
     position: absolute;
-    left: -10px;
+    left: 0;
     top: 0;
     bottom: 0;
     background-image: url(fundo-azul.png);
