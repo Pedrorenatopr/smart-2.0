@@ -618,7 +618,7 @@ footer {
   border-top: 1px solid rgba(45, 46, 72, 0.21);
   background: rgba(5, 5, 32, 0.30);
   backdrop-filter: blur(20.350000381469727px);
-  padding: 100px;
+  padding: 50px;
 }
 
 footer p {
@@ -636,12 +636,12 @@ footer p {
 }
 
 .redes {
-  display: flex;
+  display: none;
   justify-content: center;
   gap: 100px;
   padding-bottom: 50px;
   padding-top: 50px;
-  border-top: .1px solid rgb(129 54 54);
+  border-top: 50.1px solid rgb(129 54 54);
   border-image: linear-gradient(to right, transparent, #36536760, transparent) 1;
 }
 
@@ -920,7 +920,7 @@ footer {
 }
 
 .redes {
-  display: grid;
+  display: none;
   justify-content: left;
   padding-left: 30px;
   gap: 10px;
