@@ -47,6 +47,10 @@
     background: rgba(2, 4, 26, 0.06);
     backdrop-filter: blur(12.350000381469727px);
   }
+  
+  nav a:hover {
+    font-weight: bold;
+  }
 
   .menu-lista {
     display: flex;
