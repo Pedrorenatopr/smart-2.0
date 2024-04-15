@@ -708,12 +708,11 @@ footer p {
   }
 
   .fundo {
-    display: none;
     position: absolute;
     right: 0;
     left: 0;
     top: 130px;
-    animation: fundoOpacidade 10s linear infinite;
+    animation: none;
 
   }
 
@@ -768,7 +767,6 @@ footer p {
 
   .npc-principal {
     width: 300px;
-
   }
 
   .cartao-section-dois {
