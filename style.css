@@ -826,6 +826,7 @@ footer p {
     align-items: center;
     width: 100%;
     padding-top: 50px;
+    padding-bottom: 5px;
   }
 
   .cartao-depoimento::-webkit-scrollbar {
