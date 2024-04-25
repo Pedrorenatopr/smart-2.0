@@ -17,7 +17,7 @@
   
 
   body {
-    background-color: #050520;
+    background-color: black;
     color: #CAD1E9;
     overflow-x: hidden;
 
@@ -49,7 +49,7 @@
     padding-top: 2em;
     padding-bottom: 2em;
     border-radius: 20px;
-    border: 1px solid #1F2035;
+    border: 1px solid #636472;
     background: rgba(2, 4, 26, 0.06);
     backdrop-filter: blur(12.350000381469727px);
   }
@@ -76,8 +76,7 @@
     display: block;
     border-radius: 7.885px;
     border: 0.657px solid #4E4E69;
-    background: linear-gradient(2deg, #21223C 7.4%, #0B0B26 98.31%);
-    color: #CAD1E9;
+    background: linear-gradient(137deg, rgba(27, 28, 54, 0.16) 23.98%, rgba(112, 113, 122, 0.16) 65.73%);    color: #CAD1E9;
     width: 220px;
     padding: 10px;
     border: 0 solid;
@@ -194,8 +193,7 @@
     display: block;
     border-radius: 7.885px;
     border: 0.657px solid #4E4E69;
-    background: linear-gradient(2deg, #21223C 7.4%, #0B0B26 98.31%);
-    color: #CAD1E9;
+    background: linear-gradient(137deg, rgba(27, 28, 54, 0.16) 23.98%, rgba(112, 113, 122, 0.16) 65.73%);    color: #CAD1E9;
     width: 220px;
     padding: 10px;
     border: 0 solid;
@@ -289,7 +287,7 @@
 
   .card-section-dois {
     border-radius: 15.733px;
-    border: 0.787px solid #2C2D47;
+    border: 0.787px solid #636472;
     background: linear-gradient(137deg, rgba(27, 28, 54, 0.16) 23.98%, rgba(112, 113, 122, 0.16) 65.73%);
     backdrop-filter: blur(4.6020002365112305px);
     width: 472px;
@@ -304,7 +302,7 @@
 
   .card-section-dois-900px {
     border-radius: 15.733px;
-    border: 0.787px solid #2C2D47;
+    border: 0.787px solid #636472;
     background: linear-gradient(95deg, rgba(27, 28, 54, 0.16) 1.58%, rgba(112, 113, 122, 0.16) 88.87%);
     backdrop-filter: blur(4.6020002365112305px);
     width: 1000px;
@@ -372,7 +370,7 @@
   .titulo-depoimento {
     font-size: 44px;
     text-align: center;
-    color: #CAD1E9;
+    color: white;
     font-weight: 700;
   }
 
@@ -381,7 +379,7 @@
     height: 287px;
     padding: 28.88px 9.528px 88.297px 9.528px;
     border-radius: 15.88px;
-    border: 0.794px solid #2C2D47;
+    border: 0.794px solid #636472;
     background: linear-gradient(137deg, rgba(27, 28, 54, 0.16) 23.98%, rgba(112, 113, 122, 0.16) 65.73%);
     backdrop-filter: blur(4.644870758056641px);
   }
@@ -473,6 +471,7 @@
   .titulo-sobre {
     font-size: 52px;
     font-weight: 700;
+    color: white;
 
 
   }
@@ -494,7 +493,7 @@
 
 
   .div-duvidas {
-    background: linear-gradient(254deg, #1B1C36 14.36%, #2B4399 60.86%);
+    background: #131212;
     padding-top: 200px;
     padding-bottom: 200px;
   }
@@ -532,6 +531,7 @@ details ul {
   padding-left: 10px;
   padding-bottom: 80px;
   text-align: center;
+  color: white;
 }
 
 .card-duvidas {
@@ -628,7 +628,6 @@ footer {
   gap: 150px;
   border-radius: 50px 50px 0px 0px;
   border-top: 1px solid rgba(45, 46, 72, 0.21);
-  background: rgba(5, 5, 32, 0.30);
   backdrop-filter: blur(20.350000381469727px);
   padding: 50px;
 }
@@ -686,9 +685,9 @@ footer p {
     gap: 50px;
     padding: 1em;
     border-radius: 15px 15px 0px 0px;
-    border-top: 0.787px solid #2C2D47;
+    border-top: 0.787px solid #636472;
     border-bottom: 0;
-    background-color: #0B0B26;
+    background-color: black;
     backdrop-filter: blur(4.6020002365112305px);
     z-index: 3;
   }
@@ -895,7 +894,7 @@ footer p {
 
 
   .div-duvidas {
-    background: linear-gradient(254deg, #1B1C36 14.36%, #2B4399 60.86%);
+    background: #131212;
     padding-top: 100px;
     padding-bottom: 100px;
   }
