@@ -23,6 +23,12 @@
 
   }
 
+  .bt-fixo-wpp {
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+  }
+
   .logo-smart {
     display: none;
   }
@@ -695,6 +701,10 @@ footer p {
   .logo-smart {
     display: flex;
     justify-content: center;
+  }
+
+  .bt-fixo-wpp {
+    display: none;
   }
 
   .section-principal {
