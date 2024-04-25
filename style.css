@@ -27,6 +27,7 @@
     position: fixed;
     bottom: 30px;
     right: 50px;
+    z-index: 5;
   }
 
   .logo-smart {
