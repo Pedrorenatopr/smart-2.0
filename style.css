@@ -730,7 +730,7 @@ footer p {
   }
 
   .fundo img {
-    width: 400px;
+    width: 300px;
   }
 
   .texto-principal {
@@ -792,6 +792,7 @@ footer p {
 
   .section-dois img {
     width: 300px;
+    height: auto;
   }
 
   .card-section-dois {
