@@ -301,19 +301,32 @@ video {
     background-color: transparent;
 }
 
-.texto-card-tres a {
+.bt-servicos {
     border-radius: 55px;
-    background: #151515;
-    color: white;
+    background: #F3F3F3;
+    color: #353535;
+    border: #747775 solid 1px;
     padding: 15px 27px;
 }
 
-.texto-card-tres a:hover {
+.bt-servicos2 {
+  border-radius: 55px;
+  background: #353535;
+  color: #EBEBEB;
   border: #747775 solid 1px;
+  padding: 15px 27px;
+
+}
+
+.bt-servicos2:hover {
+  background: #353535e9;
   transition: all 0.5s;
 }
 
-
+.bt-servicos:hover {
+  background: #ffffff;
+  transition: all 1.5s;
+}
 
 
 
@@ -323,6 +336,8 @@ video {
     padding-top: 150px;
     margin-top: 150px;
 }
+
+
 
 .destaque-servicos {
     border-radius: 20px;
