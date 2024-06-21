@@ -447,6 +447,8 @@ video {
     bottom: 20px;
     font-size: 25px;
     color: white;
+    text-shadow: 3px 6px 6.9px rgba(0, 0, 0, 0.71);
+
 }
 
 .plus {
