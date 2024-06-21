@@ -708,6 +708,7 @@ section.depoimentos {
 
   .time {
     padding-top: 200px;
+    display: none;
   }
 
   .time img {
@@ -715,7 +716,7 @@ section.depoimentos {
   }
 
   .sobre {
-    padding: 100px 0 100px 0;
+    padding: 150px 0 100px 0;
   }
 
   .card-sobre {
@@ -1340,7 +1341,7 @@ display: none;
       }
 
       .sobre {
-        padding: 0px 10px 100px 10px;
+        padding: 100px 10px 100px 10px;
       }
     
       .card-sobre {
