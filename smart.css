@@ -607,6 +607,21 @@ section.depoimentos {
     width: 100%;
     max-width: 40px;
   }
+
+  section.depoimentos .slide .itens .item .estrelas {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;    
+  }
+
+  section.depoimentos .slide .itens .item .estrelas img {
+    width: 100%;
+    max-width: 20px;
+    margin: 0 10px 0 0;
+    filter: brightness(0) saturate(100%) invert(77%) sepia(91%) saturate(3028%) hue-rotate(339deg) brightness(107%) contrast(102%);
+  }
+
+
   section.depoimentos .texto .tag .info {
     display: flex;
     flex-direction: column;
@@ -684,7 +699,7 @@ section.depoimentos {
   section.depoimentos .slide .itens .item .nome .info h4 {
     font-family: var(--semibold);
     font-size: var(--f1);
-    color: #4EAF4E;
+    color: #9e9e9e;
     margin: 5px 0 0 0;
   }
 
@@ -1304,8 +1319,10 @@ display: none;
       }
 
       section.depoimentos .slide .itens .item .estrelas img {
-        max-width: 15px;
-        margin: 0 5px 0 0;
+        width: 100%;
+        max-width: 20px;
+        margin: 0 10px 0 0;
+        filter: brightness(0) saturate(100%) invert(77%) sepia(91%) saturate(3028%) hue-rotate(339deg) brightness(107%) contrast(102%);
       }
       section.depoimentos .slide .itens .item p {
         font-size: var(--f2);
