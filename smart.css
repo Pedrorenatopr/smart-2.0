@@ -723,7 +723,6 @@ section.depoimentos {
 
   .time {
     padding-top: 200px;
-    display: none;
   }
 
   .time img {
@@ -1353,7 +1352,7 @@ display: none;
     }
 
     .time {
-        padding-top: 50px;
+        padding-top: 70px;
         padding-bottom: 50px;
       }
 
